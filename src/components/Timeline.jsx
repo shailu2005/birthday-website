@@ -5,11 +5,11 @@ import { AnimatedHeart, AnimatedSparkle, AnimatedGift, AnimatedCrown } from './A
 export default function Timeline() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const events = [
-    { year: "Jul 2024", text: "The day we became friends", icon: <AnimatedHeart size={50} />, detail: "Best decision ever!" },
-    { year: "Aug 2024", text: "Getting to know each other", icon: <AnimatedSparkle size={50} />, detail: "So many laughs!" },
-    { year: "Sep 2024", text: "Endless conversations begin", icon: <AnimatedGift size={50} />, detail: "Never-ending chats!" },
-    { year: "Oct 2024", text: "Understanding each other deeply", icon: <AnimatedHeart size={50} />, detail: "True connection!" },
-    { year: "Nov 2024", text: "Still the best friendship ever", icon: <AnimatedCrown size={50} />, detail: "Forever and always!" },
+    { year: "JAN 2025", text: "The day you messaged me", icon: <AnimatedHeart size={50} />, detail: "Best thing ever!" },
+    { year: "Feb - Jun 2025", text: "Getting to know each other", icon: <AnimatedSparkle size={50} />, detail: "So many laughs!" },
+    { year: "JUL 2025", text: "Endless conversations and fights begin ", icon: <AnimatedGift size={50} />, detail: "Never-ending chats!" },
+    { year: "Oct 2025", text: "Understanding each other deeply", icon: <AnimatedHeart size={50} />, detail: "True connection!" },
+    { year: "Nov 2025", text: "Still the best friendship ever", icon: <AnimatedCrown size={50} />, detail: "Forever and always!" },
   ];
 
   return (

@@ -41,7 +41,7 @@ function FriendshipCounter() {
   const [time, setTime] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   useEffect(() => {
-    const startDate = new Date("2024-07-01T00:00:00");
+    const startDate = new Date("2025-01-01T00:00:00");
     const updateCounter = () => {
       const now = new Date();
       const diff = now - startDate;

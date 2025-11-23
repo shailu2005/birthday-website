@@ -70,11 +70,12 @@ export default function MessageSection() {
                 <div className="mt-8 space-y-6 font-serif">
                   <motion.h3 initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2 }} className="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-6" style={{ fontFamily: "'Brush Script MT', cursive" }}>Dearest Madam,</motion.h3>
                   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className="text-gray-700 text-base md:text-lg leading-relaxed space-y-4" style={{ fontFamily: "'Georgia', serif" }}>
-                    <p className="indent-8">On this most special of days, I write to you with a heart full of gratitude and joy. You are incredibly special to me, Madam.</p>
+                    <p className="indent-8">On this most special of days, I write to you with a heart full of gratitude and joy. You are incredibly special to me.</p>
                     <p className="indent-8">Thank you for being who you are — sometimes angry, yet always sweet. Your fierce spirit and gentle heart make you truly unforgettable.</p>
+                    <p className="indent-8">Niku kopam oste nrml ga undalevu you will start saying all possible words that can make others feel bad. E oka issue marchukunte YOU ARE PERFECT. Try to control your anger. </p>
                     <p className="indent-8">Through laughter and tears, through calm moments and chaotic ones, you've been the greatest friend anyone could ask for.</p>
                     <p className="indent-8 font-bold text-pink-700">Here's to many more amazing moments together!<br />May this year bring you all the happiness you deserve.</p>
-                    <p className="text-right mt-8 text-xl">With love and friendship,<br /><span className="text-2xl font-bold text-pink-600">Your Best Friend</span></p>
+                    <p className="text-right mt-8 text-xl">With love and friendship,<br /><span className="text-2xl font-bold text-pink-600">Your Senior</span></p>
                   </motion.div>
                   <div className="flex justify-center gap-6 text-3xl mt-6">
                     <motion.div animate={{ y: [0, -10, 0] }} transition={{ duration: 2, repeat: Infinity }}><AnimatedHeart size={40} /></motion.div>
